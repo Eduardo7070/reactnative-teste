@@ -1,10 +1,188 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+    container: {
+        flex: 1,
+        backgroundColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexDirection: 'row',
+    },
+    quadrado: {
+        width: 50,
+        height: 50,
+        backgroundColor: '#1fc936be',
+        color: '#fff',
+        margin: 4,
+        borderWidth: 2,
+        borderColor: '#f00d0d'
+    },
+    txt: {
+        color: '#fff'
+    },
+    botao: {
+        borderWidth: 4,
+        backgroundColor: '#f00d0d',
+        borderColor: '#000',
+    },
+    text: {
+        marginTop: 30,
+        fontSize: 20,
+        fontFamily: 'Artifakt Element Heavy',
+        color: '#2f9cc7'
+    },
+    principal: {
+        flex: 1,
+        alignItems: 'center',
+        backgroundColor: '#eeeded'
+    },
+    botao1: {
+        width: 250,
+        height: 30,
+        margin: 15,
+        backgroundColor: '#11a0cc',
+        borderWidth: 4,
+        borderRadius: 10,
+        borderColor: '#11a0cc',
+    },
+    botao2: {
+        width: 250,
+        height: 30,
+        margin: 15,
+        backgroundColor: '#fff',
+        borderWidth: 4,
+        borderRadius: 10,
+        borderColor: '#fff',
+    },
+    textobotao1: {
+        color: '#fff',
+        textAlign: 'center',
+        fontFamily: 'Artifakt Element Heavy',
+    },
+    textobotao2: {
+        color: '#000',
+        textAlign: 'center',
+        fontFamily: 'Artifakt Element Heavy',
+    },
+    cards: {
+        marginTop: 35,
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        width: 375,
+    },
+    card: {
+        width: 100,
+        height: 100,
+        backgroundColor: '#ffffff',
+        borderColor: '#ffffff',
+        borderWidth: 4,
+        borderRadius: 10,
+        margin: 8,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    card1: {
+        width: 150,
+        height: 80,
+        backgroundColor: '#d10000',
+        borderColor: '#d10000',
+        borderWidth: 4,
+        borderRadius: 4,
+        margin: 8,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    card2: {
+        width: 150,
+        height: 80,
+        backgroundColor: '#053396',
+        borderColor: '#053396',
+        borderWidth: 4,
+        borderRadius: 4,
+        margin: 8,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    card3: {
+        width: 150,
+        height: 80,
+        backgroundColor: '#ffae00',
+        borderColor: '#ffae00',
+        borderWidth: 4,
+        borderRadius: 4,
+        margin: 8,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    card4: {
+        width: 150,
+        height: 80,
+        backgroundColor: '#3da56c',
+        borderColor: '#3da56c',
+        borderWidth: 4,
+        borderRadius: 4,
+        margin: 8,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    card5: {
+        width: 93,
+        height: 93,
+        backgroundColor: '#6710a0',
+        borderColor: '#6710a0',
+        borderWidth: 4,
+        borderRadius: 4,
+        margin: 8,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    card6: {
+        width: 93,
+        height: 93,
+        backgroundColor: '#fa4007',
+        borderColor: '#fa4007',
+        borderWidth: 4,
+        borderRadius: 4,
+        margin: 8,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    card7: {
+        width: 93,
+        height: 93,
+        backgroundColor: '#124203',
+        borderColor: '#124203',
+        borderWidth: 4,
+        borderRadius: 4,
+        margin: 8,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    textobotao: {
+        fontWeight: 'bold',
+        fontFamily: 'Artifakt Element Heavy',
+    },
+    textobotaocard: {
+        fontWeight: 'bold',
+        fontFamily: 'Bahnschrift',
+        color: '#fff'
+    },
+    textobotaocard4: {
+        fontWeight: 'bold',
+        fontFamily: 'Artifakt Element Heavy',
+    },
+    textobotaocard6: {
+        fontWeight: 'bold',
+        fontFamily: 'Artifakt Element Heavy',
+        color: '#d6d6d6',
+    },
+    icons: {
+        margin: 3,
+    },
+    localImage: {
+        width: 400,
+        height: 200,
+
+    }
 });
